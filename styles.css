@@ -1,0 +1,19 @@
+body {
+  font-family: BhuTuka Expanded One;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+li {
+  cursor: pointer;
+  list-style: circle;
+}
